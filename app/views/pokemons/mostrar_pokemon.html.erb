@@ -1,0 +1,13 @@
+<%= form_for(@user, :url => { :action => :agregar_pokemon }, :method => :post  ) do |f| %>
+
+		<% @pokemons.each do |pok| %>
+		<div class="container">
+	
+		<%= f.check_box 'pokemon_ids', {multiple: true}, pok.id, [] %>
+		<%= pok.nombre %>
+		<br>
+		</div>
+		<% end %>
+
+	  <%= f.submit %>
+<% end %>

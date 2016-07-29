@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user: one 
+  pokemon: one
+
+two:
+  user: one
+  pokemon: one
+
+three:
+  user: one
+  pokemon: two

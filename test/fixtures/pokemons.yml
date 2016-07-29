@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nombre: ratata
+  descripcion: el pokemon rata
+
+two:
+  nombre: cartepie
+  descripcion: pokemon insecto
